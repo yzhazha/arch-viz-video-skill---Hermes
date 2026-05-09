@@ -41,7 +41,7 @@ arch-viz-video/
 
 ### 关键环境变量（需配置）
 ```bash
-LIBTV_ACCESS_KEY="sk-lib..."     # LibTV 平台 Access Key（必填）
+LIBTV_ACCESS_KEY="你的LibTV Access Key"     # LibTV 平台 Access Key（必填）
 OPENAPI_IM_BASE="https://im.liblib.tv"   # 默认值，可不设置
 FEISHU_APP_ID="..."             # 飞书应用 App ID（如使用飞书发送）
 FEISHU_APP_SECRET="..."         # 飞书应用 App Secret
@@ -110,7 +110,7 @@ Feishu视频发送已解决（2026-05-09）：
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yzhazha/skill-数智工作组-Hermes.git
+git clone https://github.com/yzhazha/skill---Hermes.git
 cd skill-数智工作组-Hermes
 
 # 2. 取出最新备份
@@ -146,6 +146,6 @@ cp -r 2026-05-09/arch-viz-video/ ~/.hermes/skills/arch-viz-video/
 
 ## 🔗 相关链接
 
-- **GitHub 仓库**：https://github.com/yzhazha/skill-数智工作组-Hermes
+- **GitHub 仓库**：https://github.com/yzhazha/skill---Hermes
 - **LibTV 平台**：https://www.liblib.tv
 - **Hermes Agent**：https://hermes-agent.nousresearch.com/docs
