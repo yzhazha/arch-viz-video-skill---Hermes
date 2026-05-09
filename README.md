@@ -1,4 +1,4 @@
-# skill-数智工作组-Hermes
+# skill---Hermes
 
 > Hermes Agent 动画静帧优化 Skill 备份仓库
 
@@ -9,7 +9,7 @@
 ## 📁 仓库结构
 
 ```
-skill-数智工作组-Hermes/
+skill---Hermes/
 ├── README.md              ← 仓库总览（本文）
 ├── 2026-05-09/            ← 按日期组织的备份
 │   ├── README.md          ← 当日备份详细说明
@@ -36,8 +36,8 @@ skill-数智工作组-Hermes/
 ### 方式一：恢复到最新版本
 
 ```bash
-git clone https://github.com/yzhazha/skill-数智工作组-Hermes.git
-cd skill-数智工作组-Hermes
+git clone https://github.com/yzhazha/skill---Hermes.git
+cd skill---Hermes
 
 # 取最新备份日期
 LATEST=$(ls -d 20*/ | sort | tail -1)
@@ -119,7 +119,7 @@ python3 "$SKILL_DIR/scripts/run_arch_image.py" \
 
 ## 🔗 相关链接
 
-- **GitHub 仓库**：https://github.com/yzhazha/skill-数智工作组-Hermes
+- **GitHub 仓库**：https://github.com/yzhazha/skill---Hermes
 - **LibTV 平台**：https://www.liblib.tv
 - **Hermes Agent 文档**：https://hermes-agent.nousresearch.com/docs
 
@@ -132,12 +132,12 @@ python3 "$SKILL_DIR/scripts/run_arch_image.py" \
 ```bash
 # 1. 在 skills 目录打包
 DATE=$(date +%Y-%m-%d)
-mkdir -p ~/github_backup/skill-数智工作组-Hermes/$DATE
-cp -r ~/.hermes/skills/arch-viz-video/ ~/github_backup/skill-数智工作组-Hermes/$DATE/
+mkdir -p ~/github_backup/skill---Hermes/$DATE
+cp -r ~/.hermes/skills/arch-viz-video/ ~/github_backup/skill---Hermes/$DATE/
 
 # 2. 写入当日 README（参考 2026-05-09/README.md 格式）
 # 3. 提交推送
-cd ~/github_backup/skill-数智工作组-Hermes
+cd ~/github_backup/skill---Hermes
 git add $DATE/
 git commit -m "Backup: $DATE"
 git push origin master
